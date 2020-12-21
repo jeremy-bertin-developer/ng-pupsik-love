@@ -1,0 +1,44 @@
+<ng-container *ngIf="actualDate.toLocaleDateString() === '24/12/2020'">
+  <h2 mat-dialog-title>Dear Pupsik Love!</h2>
+  <mat-dialog-content>
+    <p>
+      This app have been made especially for you. Through this app, I want that you never forget how much I love you ! So please open it
+      every day. Wish you the most wonderful Chirtmas and thank you to make me happy every day ! Your pupsik
+    </p>
+  </mat-dialog-content>
+  <mat-dialog-actions align="end">
+    <button class="btn btn-success" [mat-dialog-close]="true" cdkFocusInitial>Close the window</button>
+  </mat-dialog-actions>
+</ng-container>
+
+<ng-container *ngIf="actualDate.toLocaleDateString() === '14/2/2021'">
+  <h2 mat-dialog-title>Dear Pupsik Love!</h2>
+  <mat-dialog-content>
+    <p>Happy Valentine's day my Love!</p>
+  </mat-dialog-content>
+  <mat-dialog-actions align="end">
+    <button class="btn btn-success" [mat-dialog-close]="true" cdkFocusInitial>Close the window</button>
+  </mat-dialog-actions>
+</ng-container>
+
+<ng-container *ngIf="actualDate.toLocaleDateString() === '21/2/2021'">
+  <h2 mat-dialog-title>Dear Pupsik Love!</h2>
+  <mat-dialog-content>
+    <p>Wish you an Happy Birthday my Pupsik Love!</p>
+  </mat-dialog-content>
+  <mat-dialog-actions align="end">
+    <button class="btn btn-success" [mat-dialog-close]="true" cdkFocusInitial>Close the window</button>
+  </mat-dialog-actions>
+</ng-container>
+
+<ng-container *ngIf="actualDate.toLocaleDateString() === '27/6/2021'">
+  <h2 mat-dialog-title>Dear Pupsik Love!</h2>
+  <mat-dialog-content>
+    <p>Happy Anniversary my Pupsik Love!</p>
+  </mat-dialog-content>
+  <mat-dialog-actions align="end">
+    <button class="btn btn-success" [mat-dialog-close]="true" cdkFocusInitial>Close the window</button>
+  </mat-dialog-actions>
+</ng-container>
+
+<!-- Add name days etc ... -->
